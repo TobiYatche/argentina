@@ -1,0 +1,55 @@
+sigla,nombre,provincia_codigo,provincia_nombre,sede,anio_fundacion,tipo
+UBA,Universidad de Buenos Aires,02,Ciudad Autónoma de Buenos Aires,Ciudad Autónoma de Buenos Aires,1821,nacional
+UNC,Universidad Nacional de Córdoba,14,Córdoba,Córdoba,1613,nacional
+UNLP,Universidad Nacional de La Plata,06,Buenos Aires,La Plata,1905,nacional
+UNT,Universidad Nacional de Tucumán,90,Tucumán,San Miguel de Tucumán,1914,nacional
+UNL,Universidad Nacional del Litoral,82,Santa Fe,Santa Fe,1919,nacional
+UNCuyo,Universidad Nacional de Cuyo,50,Mendoza,Mendoza,1939,nacional
+UNNE,Universidad Nacional del Nordeste,18,Corrientes,Corrientes,1956,nacional
+UNS,Universidad Nacional del Sur,06,Buenos Aires,Bahía Blanca,1956,nacional
+UTN,Universidad Tecnológica Nacional,02,Ciudad Autónoma de Buenos Aires,Ciudad Autónoma de Buenos Aires,1959,nacional
+UNR,Universidad Nacional de Rosario,82,Santa Fe,Rosario,1968,nacional
+UNRC,Universidad Nacional de Río Cuarto,14,Córdoba,Río Cuarto,1971,nacional
+UNCo,Universidad Nacional del Comahue,58,Neuquén,Neuquén,1971,nacional
+UNLPam,Universidad Nacional de La Pampa,42,La Pampa,Santa Rosa,1958,nacional
+UNCa,Universidad Nacional de Catamarca,10,Catamarca,San Fernando del Valle de Catamarca,1972,nacional
+UNJu,Universidad Nacional de Jujuy,38,Jujuy,San Salvador de Jujuy,1972,nacional
+UNLaR,Universidad Nacional de La Rioja,46,La Rioja,La Rioja,1972,nacional
+UNLZ,Universidad Nacional de Lomas de Zamora,06,Buenos Aires,Lomas de Zamora,1972,nacional
+UNLu,Universidad Nacional de Luján,06,Buenos Aires,Luján,1972,nacional
+UNSa,Universidad Nacional de Salta,66,Salta,Salta,1972,nacional
+UNSJ,Universidad Nacional de San Juan,70,San Juan,San Juan,1973,nacional
+UNSL,Universidad Nacional de San Luis,74,San Luis,San Luis,1973,nacional
+UNER,Universidad Nacional de Entre Ríos,30,Entre Ríos,Paraná,1973,nacional
+UNaM,Universidad Nacional de Misiones,54,Misiones,Posadas,1973,nacional
+UNSE,Universidad Nacional de Santiago del Estero,86,Santiago del Estero,Santiago del Estero,1973,nacional
+UNICEN,Universidad Nacional del Centro de la Provincia de Buenos Aires,06,Buenos Aires,Tandil,1974,nacional
+UNMdP,Universidad Nacional de Mar del Plata,06,Buenos Aires,Mar del Plata,1975,nacional
+UNPSJB,Universidad Nacional de la Patagonia San Juan Bosco,26,Chubut,Comodoro Rivadavia,1980,nacional
+UNaF,Universidad Nacional de Formosa,34,Formosa,Formosa,1988,nacional
+UNQ,Universidad Nacional de Quilmes,06,Buenos Aires,Bernal,1989,nacional
+UNLaM,Universidad Nacional de La Matanza,06,Buenos Aires,San Justo,1989,nacional
+UNGS,Universidad Nacional de General Sarmiento,06,Buenos Aires,Los Polvorines,1992,nacional
+UNSAM,Universidad Nacional de General San Martín,06,Buenos Aires,San Martín,1992,nacional
+UNPA,Universidad Nacional de la Patagonia Austral,78,Santa Cruz,Río Gallegos,1994,nacional
+UNTREF,Universidad Nacional de Tres de Febrero,06,Buenos Aires,Caseros,1995,nacional
+UNLa,Universidad Nacional de Lanús,06,Buenos Aires,Lanús,1995,nacional
+UNVM,Universidad Nacional de Villa María,14,Córdoba,Villa María,1995,nacional
+UNA,Universidad Nacional de las Artes,02,Ciudad Autónoma de Buenos Aires,Ciudad Autónoma de Buenos Aires,1996,nacional
+UNdeC,Universidad Nacional de Chilecito,46,La Rioja,Chilecito,2002,nacional
+UNCAUS,Universidad Nacional del Chaco Austral,22,Chaco,Presidencia Roque Sáenz Peña,2007,nacional
+UNIPE,Universidad Pedagógica Nacional,06,Buenos Aires,La Plata,2007,nacional
+UNRN,Universidad Nacional de Río Negro,62,Río Negro,Viedma,2008,nacional
+UNAJ,Universidad Nacional Arturo Jauretche,06,Buenos Aires,Florencio Varela,2009,nacional
+UNDAV,Universidad Nacional de Avellaneda,06,Buenos Aires,Avellaneda,2009,nacional
+UNM,Universidad Nacional de Moreno,06,Buenos Aires,Moreno,2009,nacional
+UNPAZ,Universidad Nacional de José C. Paz,06,Buenos Aires,José C. Paz,2009,nacional
+UNO,Universidad Nacional del Oeste,06,Buenos Aires,Merlo,2009,nacional
+UNViMe,Universidad Nacional de Villa Mercedes,74,San Luis,Villa Mercedes,2009,nacional
+UNTDF,Universidad Nacional de Tierra del Fuego,94,Tierra del Fuego,Ushuaia,2010,nacional
+UNAHUR,Universidad Nacional de Hurlingham,06,Buenos Aires,Hurlingham,2014,nacional
+UNAU,Universidad Nacional del Alto Uruguay,54,Misiones,San Vicente,2014,nacional
+UNRAF,Universidad Nacional de Rafaela,82,Santa Fe,Rafaela,2014,nacional
+UNDEF,Universidad de la Defensa Nacional,02,Ciudad Autónoma de Buenos Aires,Ciudad Autónoma de Buenos Aires,2014,nacional
+UNLC,Universidad Nacional de los Comechingones,74,San Luis,Villa de Merlo,2014,nacional
+UNaB,Universidad Nacional Guillermo Brown,06,Buenos Aires,Burzaco,2018,nacional

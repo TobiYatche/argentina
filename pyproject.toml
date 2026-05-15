@@ -1,0 +1,113 @@
+[project]
+name = "argentina"
+version = "0.3.0"
+description = "Herramientas Python para datos públicos argentinos: provincias, departamentos, ciudades, geografía (IGN), economía (INDEC/BCRA), códigos postales, identificadores, EPH y más."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Tobias Yatche" }
+]
+keywords = [
+  "argentina",
+  "indec",
+  "ign",
+  "bcra",
+  "eph",
+  "censo",
+  "datos-abiertos",
+  "geocoding",
+  "argenmap",
+  "georef",
+  "cuit",
+  "dni",
+  "codigo-postal",
+  "cpa",
+  "provincias",
+  "departamentos",
+  "malvinas",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: Spanish",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: GIS",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Sociology",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/tobiasyatche/argentina"
+Repository = "https://github.com/tobiasyatche/argentina"
+Issues = "https://github.com/tobiasyatche/argentina/issues"
+Changelog = "https://github.com/tobiasyatche/argentina/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+economia = [
+    "pandas",
+    "requests"
+]
+
+maps = [
+    "folium"
+]
+
+geo = [
+    "geopandas",
+    "requests",
+    "pyogrio"
+]
+
+elecciones = [
+    "requests",
+    "pandas"
+]
+
+feriados = [
+    "requests"
+]
+
+georef = [
+    "requests"
+]
+
+data = [
+    "pandas",
+    "requests",
+    "pyarrow",
+    "duckdb"
+]
+
+dev = [
+    "pytest",
+    "pandas",
+    "requests",
+    "ruff",
+    "build",
+    "twine",
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocstrings[python]"
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+argentina = [
+    "data/*.csv"
+]

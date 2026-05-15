@@ -1,0 +1,127 @@
+codigo,descripcion,sector,sector_nombre,grupo
+011110,Cultivo de arroz,A,Agricultura ganadería caza silvicultura y pesca,0111
+011210,"Cultivo de trigo",A,Agricultura ganadería caza silvicultura y pesca,0112
+011230,"Cultivo de maíz",A,Agricultura ganadería caza silvicultura y pesca,0112
+011291,"Cultivo de soja",A,Agricultura ganadería caza silvicultura y pesca,0112
+011300,"Cultivo de hortalizas legumbres flores y plantas ornamentales",A,Agricultura ganadería caza silvicultura y pesca,0113
+011400,"Cultivo de frutas",A,Agricultura ganadería caza silvicultura y pesca,0114
+011500,"Cultivo de plantas para bebidas yerba mate té y café",A,Agricultura ganadería caza silvicultura y pesca,0115
+012110,"Cría de ganado bovino",A,Agricultura ganadería caza silvicultura y pesca,0121
+012130,"Cría de ganado ovino",A,Agricultura ganadería caza silvicultura y pesca,0121
+012140,"Cría de ganado caprino",A,Agricultura ganadería caza silvicultura y pesca,0121
+012150,"Cría de ganado porcino",A,Agricultura ganadería caza silvicultura y pesca,0121
+012200,"Cría de animales para producción de leche",A,Agricultura ganadería caza silvicultura y pesca,0122
+012410,"Cría de aves para producción de carne y huevos",A,Agricultura ganadería caza silvicultura y pesca,0124
+021000,"Silvicultura y extracción de madera",A,Agricultura ganadería caza silvicultura y pesca,0210
+031110,"Pesca marítima",A,Agricultura ganadería caza silvicultura y pesca,0311
+031200,"Pesca continental",A,Agricultura ganadería caza silvicultura y pesca,0312
+032000,"Acuicultura",A,Agricultura ganadería caza silvicultura y pesca,0320
+051000,"Extracción de carbón",B,Explotación de minas y canteras,0510
+061000,"Extracción de petróleo crudo",B,Explotación de minas y canteras,0610
+062000,"Extracción de gas natural",B,Explotación de minas y canteras,0620
+071000,"Extracción de minerales de hierro",B,Explotación de minas y canteras,0710
+072000,"Extracción de minerales metalíferos no ferrosos excepto uranio",B,Explotación de minas y canteras,0720
+081100,"Extracción de rocas ornamentales",B,Explotación de minas y canteras,0811
+101011,"Matanza de ganado bovino y procesamiento de su carne",C,Industria manufacturera,1010
+101012,"Procesamiento de carne de aves",C,Industria manufacturera,1010
+103010,"Elaboración de jugos naturales y concentrados de frutas y hortalizas",C,Industria manufacturera,1030
+104010,"Elaboración de aceites y grasas vegetales sin refinar",C,Industria manufacturera,1040
+105010,"Elaboración de leches y productos lácteos deshidratados",C,Industria manufacturera,1050
+107110,"Elaboración de galletitas y bizcochos",C,Industria manufacturera,1071
+107120,"Elaboración industrial de productos de panadería excepto galletitas y bizcochos",C,Industria manufacturera,1071
+108011,"Elaboración de comidas preparadas para reventa",C,Industria manufacturera,1080
+110100,"Destilación y rectificación de bebidas alcohólicas",C,Industria manufacturera,1101
+110200,"Elaboración de vinos",C,Industria manufacturera,1102
+110300,"Elaboración de cerveza",C,Industria manufacturera,1103
+110420,"Elaboración de bebidas no alcohólicas",C,Industria manufacturera,1104
+120000,"Elaboración de productos de tabaco",C,Industria manufacturera,1200
+139201,"Fabricación de frazadas mantas ponchos colchas cubrecamas y artículos similares",C,Industria manufacturera,1392
+141110,"Confección de prendas de vestir excepto prendas de piel y cuero",C,Industria manufacturera,1411
+151200,"Fabricación de maletas bolsos de mano y similares artículos de marroquinería",C,Industria manufacturera,1512
+152020,"Fabricación de calzado de cuero excepto calzado deportivo y ortopédico",C,Industria manufacturera,1520
+192000,"Fabricación de productos de la refinación del petróleo",C,Industria manufacturera,1920
+201190,"Fabricación de sustancias químicas básicas excepto abonos y compuestos de nitrógeno",C,Industria manufacturera,2011
+202100,"Fabricación de plaguicidas y productos químicos de uso agropecuario",C,Industria manufacturera,2021
+210010,"Fabricación de medicamentos de uso humano",C,Industria manufacturera,2100
+231010,"Fabricación de envases de vidrio",C,Industria manufacturera,2310
+241000,"Industrias básicas de hierro y acero",C,Industria manufacturera,2410
+271000,"Fabricación de motores generadores transformadores eléctricos aparatos de distribución y control de la energía eléctrica",C,Industria manufacturera,2710
+291000,"Fabricación de vehículos automotores",C,Industria manufacturera,2910
+351110,"Generación de energía térmica convencional",D,Suministro de electricidad gas vapor y aire acondicionado,3511
+351120,"Generación de energía térmica nuclear",D,Suministro de electricidad gas vapor y aire acondicionado,3511
+351130,"Generación de energía hidráulica",D,Suministro de electricidad gas vapor y aire acondicionado,3511
+352010,"Fabricación de gas y distribución de combustibles gaseosos por tuberías",D,Suministro de electricidad gas vapor y aire acondicionado,3520
+360010,"Captación depuración y distribución de agua de fuentes subterráneas",E,Suministro de agua cloacas gestión de residuos y recuperación de materiales,3600
+381100,"Recolección desclasificación transporte y disposición final de residuos no peligrosos",E,Suministro de agua cloacas gestión de residuos y recuperación de materiales,3811
+410011,"Construcción confección y reparación de edificios residenciales",F,Construcción,4100
+410020,"Construcción reforma y reparación de edificios no residenciales",F,Construcción,4100
+421000,"Construcción reforma y reparación de obras de infraestructura del transporte",F,Construcción,4210
+422100,"Construcción reforma y reparación de redes de tendido eléctrico y de telecomunicaciones",F,Construcción,4221
+431100,"Demolición y preparación de terrenos para obras",F,Construcción,4311
+432100,"Instalaciones eléctricas",F,Construcción,4321
+451110,"Venta de autos y camionetas nuevos",G,Comercio al por mayor y al por menor reparación de vehículos automotores y motocicletas,4511
+451190,"Venta de autos y camionetas usados",G,Comercio al por mayor y al por menor reparación de vehículos automotores y motocicletas,4511
+452100,"Lavado automático y manual y servicios de mantenimiento de vehículos automotores",G,Comercio al por mayor y al por menor reparación de vehículos automotores y motocicletas,4520
+471110,"Venta al por menor en hipermercados",G,Comercio al por mayor y al por menor reparación de vehículos automotores y motocicletas,4711
+471120,"Venta al por menor en supermercados",G,Comercio al por mayor y al por menor reparación de vehículos automotores y motocicletas,4711
+472000,"Venta al por menor de alimentos bebidas y tabaco en establecimientos especializados",G,Comercio al por mayor y al por menor reparación de vehículos automotores y motocicletas,4720
+477110,"Venta al por menor de prendas y accesorios de vestir excepto de cuero y pelet",G,Comercio al por mayor y al por menor reparación de vehículos automotores y motocicletas,4771
+492110,"Servicio de transporte ferroviario de cargas",H,Transporte y almacenamiento,4921
+492210,"Servicio de transporte automotor urbano y suburbano regular de pasajeros",H,Transporte y almacenamiento,4922
+493110,"Servicio de transporte automotor interurbano regular de pasajeros",H,Transporte y almacenamiento,4931
+494100,"Servicio de transporte automotor de cargas",H,Transporte y almacenamiento,4941
+501100,"Servicio de transporte marítimo de pasajeros",H,Transporte y almacenamiento,5011
+511000,"Servicio de transporte aéreo de pasajeros",H,Transporte y almacenamiento,5110
+521000,"Servicios de manipulación de carga",H,Transporte y almacenamiento,5210
+522000,"Almacenamiento y depósito",H,Transporte y almacenamiento,5220
+551010,"Servicios de alojamiento en hoteles excepto por hora",I,Alojamiento y servicios de comida,5510
+561011,"Servicios de expendio de comidas y bebidas en restaurantes,",I,Alojamiento y servicios de comida,5610
+561012,"Servicios de expendio de comidas y bebidas en bares y restaurantes con espectáculo",I,Alojamiento y servicios de comida,5610
+582000,"Edición de programas informáticos",J,Información y comunicaciones,5820
+591110,"Producción de películas cinematográficas",J,Información y comunicaciones,5911
+601000,"Emisión y retransmisión de radio",J,Información y comunicaciones,6010
+611000,"Servicios de telefonía fija",J,Información y comunicaciones,6110
+612000,"Servicios de telefonía móvil",J,Información y comunicaciones,6120
+620100,"Servicios de consultores en informática y suministros de programas de informática",J,Información y comunicaciones,6201
+620200,"Servicios de consultores en equipo de informática",J,Información y comunicaciones,6202
+620900,"Servicios de informática NCP",J,Información y comunicaciones,6209
+631110,"Procesamiento de datos hosting y actividades relacionadas",J,Información y comunicaciones,6311
+631200,"Portales web",J,Información y comunicaciones,6312
+641100,"Servicios de la banca central",K,Intermediación financiera y servicios de seguros,6411
+641900,"Servicios de la banca minorista",K,Intermediación financiera y servicios de seguros,6419
+651110,"Servicios de seguros generales",K,Intermediación financiera y servicios de seguros,6511
+651120,"Servicios de seguros de vida",K,Intermediación financiera y servicios de seguros,6512
+661100,"Servicios de administración de mercados financieros",K,Intermediación financiera y servicios de seguros,6611
+681010,"Servicios inmobiliarios realizados por cuenta propia",L,Servicios inmobiliarios,6810
+682090,"Servicios inmobiliarios realizados a cambio de una retribución o por contrata",L,Servicios inmobiliarios,6820
+691000,"Servicios jurídicos",M,Servicios profesionales científicos y técnicos,6910
+692000,"Servicios de contabilidad auditoría y asesoría fiscal",M,Servicios profesionales científicos y técnicos,6920
+702090,"Servicios de asesoramiento dirección y gestión empresarial NCP",M,Servicios profesionales científicos y técnicos,7020
+711001,"Servicios de arquitectura",M,Servicios profesionales científicos y técnicos,7110
+711002,"Servicios de ingeniería",M,Servicios profesionales científicos y técnicos,7110
+721010,"Investigación y desarrollo experimental en ciencias naturales y exactas",M,Servicios profesionales científicos y técnicos,7210
+749009,"Otras actividades profesionales científicas y técnicas NCP",M,Servicios profesionales científicos y técnicos,7490
+773010,"Alquiler de maquinaria y equipo agropecuario",N,Actividades administrativas y servicios de apoyo,7730
+782000,"Servicios de empresas de empleo temporario",N,Actividades administrativas y servicios de apoyo,7820
+841100,"Servicios generales de la administración pública",O,Administración pública defensa y seguridad social obligatoria,8411
+842100,"Servicios para la defensa",O,Administración pública defensa y seguridad social obligatoria,8421
+843000,"Servicios de la seguridad social obligatoria",O,Administración pública defensa y seguridad social obligatoria,8430
+851010,"Enseñanza inicial y primaria",P,Enseñanza,8510
+852010,"Enseñanza secundaria de formación general",P,Enseñanza,8521
+853100,"Enseñanza universitaria excepto formación de posgrado",P,Enseñanza,8531
+853200,"Formación de posgrado",P,Enseñanza,8532
+854950,"Enseñanza de idiomas",P,Enseñanza,8549
+861010,"Servicios de internación",Q,Salud humana y servicios sociales,8610
+862100,"Servicios de atención médica ambulatoria",Q,Salud humana y servicios sociales,8621
+862200,"Servicios de atención odontológica",Q,Salud humana y servicios sociales,8622
+869090,"Servicios relacionados con la salud humana NCP",Q,Salud humana y servicios sociales,8690
+900010,"Servicios de espectáculos artísticos en vivo",R,Artes entretenimiento y recreación,9000
+910100,"Servicios de bibliotecas y archivos",R,Artes entretenimiento y recreación,9101
+920009,"Servicios relacionados con juegos de azar y apuestas",R,Artes entretenimiento y recreación,9200
+931010,"Servicios de organización dirección y gestión de prácticas deportivas y explotación de instalaciones",R,Artes entretenimiento y recreación,9310
+949990,"Servicios de asociaciones NCP",S,Otras actividades de servicios,9499
+951100,"Reparación y mantenimiento de computadoras y equipo periférico",S,Otras actividades de servicios,9511
+952100,"Reparación de artículos eléctricos de uso doméstico",S,Otras actividades de servicios,9521
+960210,"Servicios de peluquería",S,Otras actividades de servicios,9602
+960910,"Servicios para el cuidado de mascotas",S,Otras actividades de servicios,9609
+970000,"Servicios de hogares privados que contratan servicio doméstico",T,Servicios de hogares que contratan servicio doméstico,9700

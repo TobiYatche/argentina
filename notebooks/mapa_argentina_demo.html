@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_efd7d73fcecf70d6338db304e9728b51 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    <div style="position: fixed; bottom: 10px; left: 10px; z-index: 9999; background-color: white; padding: 6px; border: 1px solid #999; font-size: 11px;">Cartografía: IGN Argentina / Argenmap. Toponimia argentina: Islas Malvinas.</div>
+    
+            <div class="folium-map" id="map_efd7d73fcecf70d6338db304e9728b51" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_efd7d73fcecf70d6338db304e9728b51 = L.map(
+                "map_efd7d73fcecf70d6338db304e9728b51",
+                {
+                    center: [-38.0, -64.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_def19ab91a95902f97f62e3ab1b3a505 = L.tileLayer(
+                "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG%3A3857@png/{z}/{x}/{-y}.png",
+                {"attribution": "Instituto Geogr\u00e1fico Nacional de la Rep\u00fablica Argentina", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+            var circle_marker_58952198bc0afc232e57abf730ce7d1f = L.circleMarker(
+                [-34.621290649999935, -58.434566347209866],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_c928de5d645cf5cbc71d0f6428eb5746 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_2d83cdeeb479746ef7cd05d57adaa4d9 = $(`<div id="html_2d83cdeeb479746ef7cd05d57adaa4d9" style="width: 100.0%; height: 100.0%;"><b>Ciudad Autónoma de Buenos Aires</b><br>Capital: Ciudad Autónoma de Buenos Aires<br>Región: CABA<br>ISO: AR-C · INDEC: 02</div>`)[0];
+                popup_c928de5d645cf5cbc71d0f6428eb5746.setContent(html_2d83cdeeb479746ef7cd05d57adaa4d9);
+            
+        
+
+        circle_marker_58952198bc0afc232e57abf730ce7d1f.bindPopup(popup_c928de5d645cf5cbc71d0f6428eb5746)
+        ;
+
+        
+    
+    
+            circle_marker_58952198bc0afc232e57abf730ce7d1f.bindTooltip(
+                `<div>
+                     Ciudad Autónoma de Buenos Aires
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2dbb6d44c30d30161b08be969fe4eeea = L.circleMarker(
+                [-33.896072964999945, -65.95194319590664],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_97f56df1cd23a756881b543730f6921a = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_890ea15089a870a0bd042a2ef4dfe0c9 = $(`<div id="html_890ea15089a870a0bd042a2ef4dfe0c9" style="width: 100.0%; height: 100.0%;"><b>San Luis</b><br>Capital: San Luis<br>Región: Cuyo<br>ISO: AR-D · INDEC: 74</div>`)[0];
+                popup_97f56df1cd23a756881b543730f6921a.setContent(html_890ea15089a870a0bd042a2ef4dfe0c9);
+            
+        
+
+        circle_marker_2dbb6d44c30d30161b08be969fe4eeea.bindPopup(popup_97f56df1cd23a756881b543730f6921a)
+        ;
+
+        
+    
+    
+            circle_marker_2dbb6d44c30d30161b08be969fe4eeea.bindTooltip(
+                `<div>
+                     San Luis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_182a4941f23f6f41e007416161f86970 = L.circleMarker(
+                [-31.017116540499984, -60.906601958336154],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_04a06fc306940be946f2e95873cae1c1 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_d85bb676b611d1ded9341a5cd23f91f8 = $(`<div id="html_d85bb676b611d1ded9341a5cd23f91f8" style="width: 100.0%; height: 100.0%;"><b>Santa Fe</b><br>Capital: Santa Fe<br>Región: Pampeana<br>ISO: AR-S · INDEC: 82</div>`)[0];
+                popup_04a06fc306940be946f2e95873cae1c1.setContent(html_d85bb676b611d1ded9341a5cd23f91f8);
+            
+        
+
+        circle_marker_182a4941f23f6f41e007416161f86970.bindPopup(popup_04a06fc306940be946f2e95873cae1c1)
+        ;
+
+        
+    
+    
+            circle_marker_182a4941f23f6f41e007416161f86970.bindTooltip(
+                `<div>
+                     Santa Fe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_12838c3237acc9a438ca3ae314102464 = L.circleMarker(
+                [-27.09551230149995, -65.39363771930559],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_1260273a48a3d2a16a4bcd4a92ef5f21 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_7aafc9ca07e363c97d842629204ea182 = $(`<div id="html_7aafc9ca07e363c97d842629204ea182" style="width: 100.0%; height: 100.0%;"><b>Tucumán</b><br>Capital: San Miguel de Tucumán<br>Región: NOA<br>ISO: AR-T · INDEC: 90</div>`)[0];
+                popup_1260273a48a3d2a16a4bcd4a92ef5f21.setContent(html_7aafc9ca07e363c97d842629204ea182);
+            
+        
+
+        circle_marker_12838c3237acc9a438ca3ae314102464.bindPopup(popup_1260273a48a3d2a16a4bcd4a92ef5f21)
+        ;
+
+        
+    
+    
+            circle_marker_12838c3237acc9a438ca3ae314102464.bindTooltip(
+                `<div>
+                     Tucumán
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_52a41a59136a1c3e807c2d48e4a13e59 = L.circleMarker(
+                [-23.133789664999938, -66.05137455636672],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_51ee097df8157ef10b4d597d501c945a = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_e85f760cbbd0c65dfc3110df8b69dc97 = $(`<div id="html_e85f760cbbd0c65dfc3110df8b69dc97" style="width: 100.0%; height: 100.0%;"><b>Jujuy</b><br>Capital: San Salvador de Jujuy<br>Región: NOA<br>ISO: AR-Y · INDEC: 38</div>`)[0];
+                popup_51ee097df8157ef10b4d597d501c945a.setContent(html_e85f760cbbd0c65dfc3110df8b69dc97);
+            
+        
+
+        circle_marker_52a41a59136a1c3e807c2d48e4a13e59.bindPopup(popup_51ee097df8157ef10b4d597d501c945a)
+        ;
+
+        
+    
+    
+            circle_marker_52a41a59136a1c3e807c2d48e4a13e59.bindTooltip(
+                `<div>
+                     Jujuy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ea82b720a95457f7f3ed0287881472b3 = L.circleMarker(
+                [-28.234745118999967, -63.44174540592466],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_eb2062aa0f7be963f35b61e73e4fc490 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_5aca0929d6f325c37d206a79a4bba478 = $(`<div id="html_5aca0929d6f325c37d206a79a4bba478" style="width: 100.0%; height: 100.0%;"><b>Santiago del Estero</b><br>Capital: Santiago del Estero<br>Región: NOA<br>ISO: AR-G · INDEC: 86</div>`)[0];
+                popup_eb2062aa0f7be963f35b61e73e4fc490.setContent(html_5aca0929d6f325c37d206a79a4bba478);
+            
+        
+
+        circle_marker_ea82b720a95457f7f3ed0287881472b3.bindPopup(popup_eb2062aa0f7be963f35b61e73e4fc490)
+        ;
+
+        
+    
+    
+            circle_marker_ea82b720a95457f7f3ed0287881472b3.bindTooltip(
+                `<div>
+                     Santiago del Estero
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7fd434f4fae0378ac9914b3396fd84f4 = L.circleMarker(
+                [-32.20655695999997, -63.67885242361271],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_907bd77b87f23abd11eae9ea1d9d060e = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_b9018b432e23115de2e56f0c013ea082 = $(`<div id="html_b9018b432e23115de2e56f0c013ea082" style="width: 100.0%; height: 100.0%;"><b>Córdoba</b><br>Capital: Córdoba<br>Región: Pampeana<br>ISO: AR-X · INDEC: 14</div>`)[0];
+                popup_907bd77b87f23abd11eae9ea1d9d060e.setContent(html_b9018b432e23115de2e56f0c013ea082);
+            
+        
+
+        circle_marker_7fd434f4fae0378ac9914b3396fd84f4.bindPopup(popup_907bd77b87f23abd11eae9ea1d9d060e)
+        ;
+
+        
+    
+    
+            circle_marker_7fd434f4fae0378ac9914b3396fd84f4.bindTooltip(
+                `<div>
+                     Córdoba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0cdab9b9628ce17aa6f2327d9f415632 = L.circleMarker(
+                [-36.78549649899995, -65.83006085958574],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_d4bb21843bb1964b6e636398a61d3874 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_8c6de4f10e5c3ae7e1d19d9664b70bad = $(`<div id="html_8c6de4f10e5c3ae7e1d19d9664b70bad" style="width: 100.0%; height: 100.0%;"><b>La Pampa</b><br>Capital: Santa Rosa<br>Región: Pampeana<br>ISO: AR-L · INDEC: 42</div>`)[0];
+                popup_d4bb21843bb1964b6e636398a61d3874.setContent(html_8c6de4f10e5c3ae7e1d19d9664b70bad);
+            
+        
+
+        circle_marker_0cdab9b9628ce17aa6f2327d9f415632.bindPopup(popup_d4bb21843bb1964b6e636398a61d3874)
+        ;
+
+        
+    
+    
+            circle_marker_0cdab9b9628ce17aa6f2327d9f415632.bindTooltip(
+                `<div>
+                     La Pampa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f7dd1167e337a1452e216b7a041c5787 = L.circleMarker(
+                [-26.073352777999958, -60.68883431767347],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_d7abb4e7f3f93e0a11292d1619d65c41 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_38669b5bdfaf24c126b4ca62ba4a1357 = $(`<div id="html_38669b5bdfaf24c126b4ca62ba4a1357" style="width: 100.0%; height: 100.0%;"><b>Chaco</b><br>Capital: Resistencia<br>Región: NEA<br>ISO: AR-H · INDEC: 22</div>`)[0];
+                popup_d7abb4e7f3f93e0a11292d1619d65c41.setContent(html_38669b5bdfaf24c126b4ca62ba4a1357);
+            
+        
+
+        circle_marker_f7dd1167e337a1452e216b7a041c5787.bindPopup(popup_d7abb4e7f3f93e0a11292d1619d65c41)
+        ;
+
+        
+    
+    
+            circle_marker_f7dd1167e337a1452e216b7a041c5787.bindTooltip(
+                `<div>
+                     Chaco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5b043cb45fc328a0653f94762d9d4868 = L.circleMarker(
+                [-24.748055453999967, -59.959480071559284],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_85b1d6e83888384b9fbd498ab9945cde = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_9e57392100b55b2ac01c9198855d0970 = $(`<div id="html_9e57392100b55b2ac01c9198855d0970" style="width: 100.0%; height: 100.0%;"><b>Formosa</b><br>Capital: Formosa<br>Región: NEA<br>ISO: AR-P · INDEC: 34</div>`)[0];
+                popup_85b1d6e83888384b9fbd498ab9945cde.setContent(html_9e57392100b55b2ac01c9198855d0970);
+            
+        
+
+        circle_marker_5b043cb45fc328a0653f94762d9d4868.bindPopup(popup_85b1d6e83888384b9fbd498ab9945cde)
+        ;
+
+        
+    
+    
+            circle_marker_5b043cb45fc328a0653f94762d9d4868.bindTooltip(
+                `<div>
+                     Formosa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_187b1b5698818c900966a36245e18d71 = L.circleMarker(
+                [-43.99069030249996, -68.46951387599287],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_3aa74af8306cf680b5f6e412b6ed2525 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_0f77327d9713d9016c7111e67720399d = $(`<div id="html_0f77327d9713d9016c7111e67720399d" style="width: 100.0%; height: 100.0%;"><b>Chubut</b><br>Capital: Rawson<br>Región: Patagonia<br>ISO: AR-U · INDEC: 26</div>`)[0];
+                popup_3aa74af8306cf680b5f6e412b6ed2525.setContent(html_0f77327d9713d9016c7111e67720399d);
+            
+        
+
+        circle_marker_187b1b5698818c900966a36245e18d71.bindPopup(popup_3aa74af8306cf680b5f6e412b6ed2525)
+        ;
+
+        
+    
+    
+            circle_marker_187b1b5698818c900966a36245e18d71.bindTooltip(
+                `<div>
+                     Chubut
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_317091bd5806164c22bf15804b0f6669 = L.circleMarker(
+                [-39.70589885149997, -66.38712325477262],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_92e79b272710bd618764ae9386d3be5b = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_894ab45d65ca5b5049f18897cd91c13b = $(`<div id="html_894ab45d65ca5b5049f18897cd91c13b" style="width: 100.0%; height: 100.0%;"><b>Río Negro</b><br>Capital: Viedma<br>Región: Patagonia<br>ISO: AR-R · INDEC: 62</div>`)[0];
+                popup_92e79b272710bd618764ae9386d3be5b.setContent(html_894ab45d65ca5b5049f18897cd91c13b);
+            
+        
+
+        circle_marker_317091bd5806164c22bf15804b0f6669.bindPopup(popup_92e79b272710bd618764ae9386d3be5b)
+        ;
+
+        
+    
+    
+            circle_marker_317091bd5806164c22bf15804b0f6669.bindTooltip(
+                `<div>
+                     Río Negro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f7062d7054bbb101231526e87fc3c9e8 = L.circleMarker(
+                [-26.820684184999948, -54.35995418146896],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_0cb8b31e0910fdf91d0cd8a864edacb4 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_5c94cba43ddf2945605340ef8b9df619 = $(`<div id="html_5c94cba43ddf2945605340ef8b9df619" style="width: 100.0%; height: 100.0%;"><b>Misiones</b><br>Capital: Posadas<br>Región: NEA<br>ISO: AR-N · INDEC: 54</div>`)[0];
+                popup_0cb8b31e0910fdf91d0cd8a864edacb4.setContent(html_5c94cba43ddf2945605340ef8b9df619);
+            
+        
+
+        circle_marker_f7062d7054bbb101231526e87fc3c9e8.bindPopup(popup_0cb8b31e0910fdf91d0cd8a864edacb4)
+        ;
+
+        
+    
+    
+            circle_marker_f7062d7054bbb101231526e87fc3c9e8.bindTooltip(
+                `<div>
+                     Misiones
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_30abfb69ef380c18e13b582bd2c5fa03 = L.circleMarker(
+                [-24.150177265499963, -63.25185476468387],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_204925f16d06b549a362e5cc9ae535d6 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_17417a122a3f225f03e57fd5d1f771af = $(`<div id="html_17417a122a3f225f03e57fd5d1f771af" style="width: 100.0%; height: 100.0%;"><b>Salta</b><br>Capital: Salta<br>Región: NOA<br>ISO: AR-A · INDEC: 66</div>`)[0];
+                popup_204925f16d06b549a362e5cc9ae535d6.setContent(html_17417a122a3f225f03e57fd5d1f771af);
+            
+        
+
+        circle_marker_30abfb69ef380c18e13b582bd2c5fa03.bindPopup(popup_204925f16d06b549a362e5cc9ae535d6)
+        ;
+
+        
+    
+    
+            circle_marker_30abfb69ef380c18e13b582bd2c5fa03.bindTooltip(
+                `<div>
+                     Salta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f07dfa0a1de6241be9618e58ca25a270 = L.circleMarker(
+                [-37.18669112549995, -60.139171392723746],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_e87736db4bbd4dd60c60966f7f99bc1f = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_f65bec0347702ae1cdbe62b4f60758eb = $(`<div id="html_f65bec0347702ae1cdbe62b4f60758eb" style="width: 100.0%; height: 100.0%;"><b>Buenos Aires</b><br>Capital: La Plata<br>Región: Pampeana<br>ISO: AR-B · INDEC: 06</div>`)[0];
+                popup_e87736db4bbd4dd60c60966f7f99bc1f.setContent(html_f65bec0347702ae1cdbe62b4f60758eb);
+            
+        
+
+        circle_marker_f07dfa0a1de6241be9618e58ca25a270.bindPopup(popup_e87736db4bbd4dd60c60966f7f99bc1f)
+        ;
+
+        
+    
+    
+            circle_marker_f07dfa0a1de6241be9618e58ca25a270.bindTooltip(
+                `<div>
+                     Buenos Aires
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1072435a8eed3a3ee965f1d773e47a09 = L.circleMarker(
+                [-82.95081826149996, -41.408504095570855],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_518be4a82f068c2b1542c6f2a6d434b4 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_d63540d252f5012369f20be5993a7c71 = $(`<div id="html_d63540d252f5012369f20be5993a7c71" style="width: 100.0%; height: 100.0%;"><b>Tierra del Fuego</b><br>Capital: Ushuaia<br>Región: Patagonia<br>ISO: AR-V · INDEC: 94</div>`)[0];
+                popup_518be4a82f068c2b1542c6f2a6d434b4.setContent(html_d63540d252f5012369f20be5993a7c71);
+            
+        
+
+        circle_marker_1072435a8eed3a3ee965f1d773e47a09.bindPopup(popup_518be4a82f068c2b1542c6f2a6d434b4)
+        ;
+
+        
+    
+    
+            circle_marker_1072435a8eed3a3ee965f1d773e47a09.bindTooltip(
+                `<div>
+                     Tierra del Fuego
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_62ff7b6a01048b2ef3f97d0add0526a6 = L.circleMarker(
+                [-32.08051979499996, -59.41914956858258],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_179055131f98d18784c4670137a95de8 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_f517e4fb2c1b3454ef89e1addbd8a708 = $(`<div id="html_f517e4fb2c1b3454ef89e1addbd8a708" style="width: 100.0%; height: 100.0%;"><b>Entre Ríos</b><br>Capital: Paraná<br>Región: Pampeana<br>ISO: AR-E · INDEC: 30</div>`)[0];
+                popup_179055131f98d18784c4670137a95de8.setContent(html_f517e4fb2c1b3454ef89e1addbd8a708);
+            
+        
+
+        circle_marker_62ff7b6a01048b2ef3f97d0add0526a6.bindPopup(popup_179055131f98d18784c4670137a95de8)
+        ;
+
+        
+    
+    
+            circle_marker_62ff7b6a01048b2ef3f97d0add0526a6.bindTooltip(
+                `<div>
+                     Entre Ríos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f4d343ee0bd3d8c07bb1d54a14dc3247 = L.circleMarker(
+                [-28.914626848499978, -57.7566694842519],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_96ecfd7293213bf92343895d7a37e223 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_57ed8b4574b3a6277ca78e7b9726bd13 = $(`<div id="html_57ed8b4574b3a6277ca78e7b9726bd13" style="width: 100.0%; height: 100.0%;"><b>Corrientes</b><br>Capital: Corrientes<br>Región: NEA<br>ISO: AR-W · INDEC: 18</div>`)[0];
+                popup_96ecfd7293213bf92343895d7a37e223.setContent(html_57ed8b4574b3a6277ca78e7b9726bd13);
+            
+        
+
+        circle_marker_f4d343ee0bd3d8c07bb1d54a14dc3247.bindPopup(popup_96ecfd7293213bf92343895d7a37e223)
+        ;
+
+        
+    
+    
+            circle_marker_f4d343ee0bd3d8c07bb1d54a14dc3247.bindTooltip(
+                `<div>
+                     Corrientes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c45fe3b1edfbbb26652ec298adbe4bec = L.circleMarker(
+                [-34.77310104899996, -68.45466503298263],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_da5a990d5175a697ac66f365f1a50fd0 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_ae80cade85de41a359e9c280b6e3000d = $(`<div id="html_ae80cade85de41a359e9c280b6e3000d" style="width: 100.0%; height: 100.0%;"><b>Mendoza</b><br>Capital: Mendoza<br>Región: Cuyo<br>ISO: AR-M · INDEC: 50</div>`)[0];
+                popup_da5a990d5175a697ac66f365f1a50fd0.setContent(html_ae80cade85de41a359e9c280b6e3000d);
+            
+        
+
+        circle_marker_c45fe3b1edfbbb26652ec298adbe4bec.bindPopup(popup_da5a990d5175a697ac66f365f1a50fd0)
+        ;
+
+        
+    
+    
+            circle_marker_c45fe3b1edfbbb26652ec298adbe4bec.bindTooltip(
+                `<div>
+                     Mendoza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5e0738dd3696f5e9587a42c9a7a4ecc0 = L.circleMarker(
+                [-30.48422900899996, -68.82744533157586],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_2b06b034b7496bfb78f148ffebb8c8d1 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_a89af93b3598832e072613ce1488e637 = $(`<div id="html_a89af93b3598832e072613ce1488e637" style="width: 100.0%; height: 100.0%;"><b>San Juan</b><br>Capital: San Juan<br>Región: Cuyo<br>ISO: AR-J · INDEC: 70</div>`)[0];
+                popup_2b06b034b7496bfb78f148ffebb8c8d1.setContent(html_a89af93b3598832e072613ce1488e637);
+            
+        
+
+        circle_marker_5e0738dd3696f5e9587a42c9a7a4ecc0.bindPopup(popup_2b06b034b7496bfb78f148ffebb8c8d1)
+        ;
+
+        
+    
+    
+            circle_marker_5e0738dd3696f5e9587a42c9a7a4ecc0.bindTooltip(
+                `<div>
+                     San Juan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0bc2eb27ed41e45034e9cd6edac370ad = L.circleMarker(
+                [-38.63774646649995, -69.55403270883228],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_7ba3678553f4dd06394b449769c3ccb1 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_3b0663b04bf8f84dc77231dfb8925277 = $(`<div id="html_3b0663b04bf8f84dc77231dfb8925277" style="width: 100.0%; height: 100.0%;"><b>Neuquén</b><br>Capital: Neuquén<br>Región: Patagonia<br>ISO: AR-Q · INDEC: 58</div>`)[0];
+                popup_7ba3678553f4dd06394b449769c3ccb1.setContent(html_3b0663b04bf8f84dc77231dfb8925277);
+            
+        
+
+        circle_marker_0bc2eb27ed41e45034e9cd6edac370ad.bindPopup(popup_7ba3678553f4dd06394b449769c3ccb1)
+        ;
+
+        
+    
+    
+            circle_marker_0bc2eb27ed41e45034e9cd6edac370ad.bindTooltip(
+                `<div>
+                     Neuquén
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c849eee59fb2afd0516ff9b3dcbaab13 = L.circleMarker(
+                [-29.88505758849996, -66.82303680590127],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_16aff7059d4a0a45ad02b208a86f7e9f = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_8aebce60c0f9fc1b8eb86bcd09d55341 = $(`<div id="html_8aebce60c0f9fc1b8eb86bcd09d55341" style="width: 100.0%; height: 100.0%;"><b>La Rioja</b><br>Capital: La Rioja<br>Región: NOA<br>ISO: AR-F · INDEC: 46</div>`)[0];
+                popup_16aff7059d4a0a45ad02b208a86f7e9f.setContent(html_8aebce60c0f9fc1b8eb86bcd09d55341);
+            
+        
+
+        circle_marker_c849eee59fb2afd0516ff9b3dcbaab13.bindPopup(popup_16aff7059d4a0a45ad02b208a86f7e9f)
+        ;
+
+        
+    
+    
+            circle_marker_c849eee59fb2afd0516ff9b3dcbaab13.bindTooltip(
+                `<div>
+                     La Rioja
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c79e4e5c719301f2febd49183b75bd1e = L.circleMarker(
+                [-27.613008387499974, -67.44572477458705],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_13d8ef1d1a45c915c9236a6d9ecb5e73 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_96d9d14fb7c6331defb4bc5fc76a341b = $(`<div id="html_96d9d14fb7c6331defb4bc5fc76a341b" style="width: 100.0%; height: 100.0%;"><b>Catamarca</b><br>Capital: San Fernando del Valle de Catamarca<br>Región: NOA<br>ISO: AR-K · INDEC: 10</div>`)[0];
+                popup_13d8ef1d1a45c915c9236a6d9ecb5e73.setContent(html_96d9d14fb7c6331defb4bc5fc76a341b);
+            
+        
+
+        circle_marker_c79e4e5c719301f2febd49183b75bd1e.bindPopup(popup_13d8ef1d1a45c915c9236a6d9ecb5e73)
+        ;
+
+        
+    
+    
+            circle_marker_c79e4e5c719301f2febd49183b75bd1e.bindTooltip(
+                `<div>
+                     Catamarca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2bd9d148297b33c525dfcf065df1fc34 = L.circleMarker(
+                [-49.19673010549997, -70.38730612525362],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc0000", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0.5}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+    
+        var popup_15ad116111d2a64bf4ed3a4e778eddc2 = L.popup({"maxWidth": 240});
+
+        
+            
+                var html_75b7529fe0edb237a97ea369051b1b68 = $(`<div id="html_75b7529fe0edb237a97ea369051b1b68" style="width: 100.0%; height: 100.0%;"><b>Santa Cruz</b><br>Capital: Río Gallegos<br>Región: Patagonia<br>ISO: AR-Z · INDEC: 78</div>`)[0];
+                popup_15ad116111d2a64bf4ed3a4e778eddc2.setContent(html_75b7529fe0edb237a97ea369051b1b68);
+            
+        
+
+        circle_marker_2bd9d148297b33c525dfcf065df1fc34.bindPopup(popup_15ad116111d2a64bf4ed3a4e778eddc2)
+        ;
+
+        
+    
+    
+            circle_marker_2bd9d148297b33c525dfcf065df1fc34.bindTooltip(
+                `<div>
+                     Santa Cruz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_6c74e362868124cf514ce93a4187414b = {
+                base_layers : {
+                    "Argenmap IGN" : tile_layer_def19ab91a95902f97f62e3ab1b3a505,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_6c74e362868124cf514ce93a4187414b.base_layers,
+                layer_control_6c74e362868124cf514ce93a4187414b.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_efd7d73fcecf70d6338db304e9728b51);
+        
+</script>
+</html>

@@ -1,0 +1,16 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include pyproject.toml
+
+recursive-include src/argentina/data *.csv
+
+recursive-include tests *.py
+recursive-include examples *.py
+
+# No empaquetar notebooks ejecutados (pesan más y son interactivos).
+exclude notebooks/*.ipynb
+prune notebooks
+prune .pytest_cache
+prune **/__pycache__
+global-exclude *.pyc *.pyo .DS_Store

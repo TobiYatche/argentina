@@ -1,0 +1,58 @@
+nombre,inicio,fin,partido,tipo
+Justo José de Urquiza,1854-03-05,1860-03-05,Federal,constitucional
+Santiago Derqui,1860-03-05,1861-11-05,Federal,constitucional
+Bartolomé Mitre,1862-10-12,1868-10-12,Liberal,constitucional
+Domingo Faustino Sarmiento,1868-10-12,1874-10-12,Liberal,constitucional
+Nicolás Avellaneda,1874-10-12,1880-10-12,PAN,constitucional
+Julio Argentino Roca,1880-10-12,1886-10-12,PAN,constitucional
+Miguel Juárez Celman,1886-10-12,1890-08-06,PAN,constitucional
+Carlos Pellegrini,1890-08-06,1892-10-12,PAN,interino
+Luis Sáenz Peña,1892-10-12,1895-01-23,UCN,constitucional
+José Evaristo Uriburu,1895-01-23,1898-10-12,UCN,interino
+Julio Argentino Roca,1898-10-12,1904-10-12,PAN,constitucional
+Manuel Quintana,1904-10-12,1906-03-12,PAN,constitucional
+José Figueroa Alcorta,1906-03-12,1910-10-12,PAN,interino
+Roque Sáenz Peña,1910-10-12,1914-08-09,PAN,constitucional
+Victorino de la Plaza,1914-08-09,1916-10-12,PAN,interino
+Hipólito Yrigoyen,1916-10-12,1922-10-12,UCR,constitucional
+Marcelo T. de Alvear,1922-10-12,1928-10-12,UCR,constitucional
+Hipólito Yrigoyen,1928-10-12,1930-09-06,UCR,constitucional
+José Félix Uriburu,1930-09-06,1932-02-20,Militar,de facto
+Agustín P. Justo,1932-02-20,1938-02-20,Concordancia,constitucional
+Roberto M. Ortiz,1938-02-20,1942-06-27,Concordancia,constitucional
+Ramón Castillo,1942-06-27,1943-06-04,Concordancia,interino
+Arturo Rawson,1943-06-04,1943-06-07,Militar,de facto
+Pedro Pablo Ramírez,1943-06-07,1944-03-09,Militar,de facto
+Edelmiro Farrell,1944-03-09,1946-06-04,Militar,de facto
+Juan Domingo Perón,1946-06-04,1952-06-04,Peronista,constitucional
+Juan Domingo Perón,1952-06-04,1955-09-19,Peronista,constitucional
+Eduardo Lonardi,1955-09-23,1955-11-13,Militar,de facto
+Pedro Eugenio Aramburu,1955-11-13,1958-05-01,Militar,de facto
+Arturo Frondizi,1958-05-01,1962-03-29,UCRI,constitucional
+José María Guido,1962-03-29,1963-10-12,UCRI,interino
+Arturo Illia,1963-10-12,1966-06-28,UCRP,constitucional
+Juan Carlos Onganía,1966-06-28,1970-06-08,Militar,de facto
+Roberto M. Levingston,1970-06-18,1971-03-23,Militar,de facto
+Alejandro Agustín Lanusse,1971-03-26,1973-05-25,Militar,de facto
+Héctor José Cámpora,1973-05-25,1973-07-13,Peronista,constitucional
+Raúl Lastiri,1973-07-13,1973-10-12,Peronista,interino
+Juan Domingo Perón,1973-10-12,1974-07-01,Peronista,constitucional
+María Estela Martínez de Perón,1974-07-01,1976-03-24,Peronista,constitucional
+Jorge Rafael Videla,1976-03-29,1981-03-29,Militar,de facto
+Roberto E. Viola,1981-03-29,1981-12-11,Militar,de facto
+Leopoldo Galtieri,1981-12-22,1982-06-18,Militar,de facto
+Reynaldo Bignone,1982-07-01,1983-12-10,Militar,de facto
+Raúl Alfonsín,1983-12-10,1989-07-08,UCR,constitucional
+Carlos Menem,1989-07-08,1995-07-08,PJ,constitucional
+Carlos Menem,1995-07-08,1999-12-10,PJ,constitucional
+Fernando de la Rúa,1999-12-10,2001-12-21,UCR,constitucional
+Ramón Puerta,2001-12-21,2001-12-23,PJ,interino
+Adolfo Rodríguez Saá,2001-12-23,2001-12-30,PJ,interino
+Eduardo Camaño,2001-12-30,2002-01-02,PJ,interino
+Eduardo Duhalde,2002-01-02,2003-05-25,PJ,interino
+Néstor Kirchner,2003-05-25,2007-12-10,FPV,constitucional
+Cristina Fernández de Kirchner,2007-12-10,2011-12-10,FPV,constitucional
+Cristina Fernández de Kirchner,2011-12-10,2015-12-10,FPV,constitucional
+Mauricio Macri,2015-12-10,2019-12-10,Cambiemos,constitucional
+Alberto Fernández,2019-12-10,2023-12-10,FdT,constitucional
+Javier Milei,2023-12-10,2027-12-10,LLA,constitucional

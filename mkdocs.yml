@@ -1,0 +1,86 @@
+site_name: argentina
+site_description: Utilidades para trabajar con datos administrativos y geográficos de Argentina
+site_url: https://github.com/tobiasyatche/argentina
+repo_url: https://github.com/tobiasyatche/argentina
+repo_name: argentina
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.highlight
+
+nav:
+  - Inicio: index.md
+  - Instalación: instalacion.md
+  - Quickstart: quickstart.md
+  - Filosofía: filosofia.md
+  - Extras opcionales: extras.md
+  - Módulos:
+      - País: modulos/pais.md
+      - Provincias: modulos/provincias.md
+      - Departamentos: modulos/departamentos.md
+      - Ciudades: modulos/ciudades.md
+      - Aglomerados: modulos/aglomerados.md
+      - Países limítrofes: modulos/paises_limitrofes.md
+      - Universidades: modulos/universidades.md
+      - Aeropuertos: modulos/aeropuertos.md
+      - Presidentes: modulos/presidentes.md
+      - Monedas: modulos/monedas.md
+      - Clean: modulos/clean.md
+      - Personas: modulos/personas.md
+      - Postal: modulos/postal.md
+      - Patentes: modulos/patentes.md
+      - Bancos: modulos/bancos.md
+      - Fechas: modulos/fechas.md
+      - Feriados: modulos/feriados.md
+      - Teléfonos: modulos/telefonos.md
+      - Direcciones: modulos/direcciones.md
+      - Identificar: modulos/identificar.md
+      - Coordenadas: modulos/coordenadas.md
+      - Matching: modulos/matching.md
+      - Formato: modulos/formato.md
+      - CLAE: modulos/clae.md
+      - AFIP: modulos/afip.md
+      - Montos: modulos/montos.md
+      - Educación: modulos/educacion.md
+      - Salud: modulos/salud.md
+      - Elecciones: modulos/elecciones.md
+      - Geo: modulos/geo.md
+      - Economía: modulos/economia.md
+      - Data: modulos/data.md
+  - API reference: api.md
+  - Idiomas:
+      - Resumen: i18n/index.md
+      - English: i18n/en/README.md
+      - Português: i18n/pt/README.md
+      - Français: i18n/fr/README.md
+      - Italiano: i18n/it/README.md
+      - Deutsch: i18n/de/README.md
+      - 中文: i18n/zh/README.md
+      - 日本語: i18n/ja/README.md
+      - 한국어: i18n/ko/README.md
+      - Русский: i18n/ru/README.md
+      - العربية: i18n/ar/README.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: true
+            show_root_heading: true
+            show_symbol_type_heading: true
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
